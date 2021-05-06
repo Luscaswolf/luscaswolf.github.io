@@ -148,6 +148,7 @@
     position: absolute;
     right: 10%;
     height: 79vh;
+    padding: 0 0 0 17em;
     overflow-y: scroll;
   }
 }@media only screen and (max-width: 992px) {
@@ -180,6 +181,12 @@
   right: 0;
   background: white;
   opacity: 0;
+}@media only screen and (max-width: 1366px) {
+  .controller .skill .thiskill .result {
+    width: 18vw;
+    right: 99%;
+    font-size: 80%;
+  }
 }@media only screen and (max-width: 992px) {
   .controller .skill .thiskill .result {
     display: none;
