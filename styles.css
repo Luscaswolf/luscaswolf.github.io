@@ -20,12 +20,6 @@
   background: var(--color-background);
   color: var(--color3);
   font-family: "Montserrat", sans-serif;
-}@media only screen and (max-height: 992px) {
-  body {
-    overflow-x: hidden;
-    overflow-y: auto;
-    height: auto;
-  }
 }@media only screen and (max-width: 992px) {
   body {
     width: 100vw;
@@ -149,6 +143,13 @@
 }.controller .skill {
   position: absolute;
   right: 10%;
+}@media only screen and (max-width: 1366px) {
+  .controller .skill {
+    position: absolute;
+    right: 10%;
+    height: 79vh;
+    overflow-y: scroll;
+  }
 }@media only screen and (max-width: 992px) {
   .controller .skill {
     top: 10%;
